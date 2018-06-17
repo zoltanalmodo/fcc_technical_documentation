@@ -35,10 +35,13 @@ User Story #15: My Technical Documentation page should use at least one media qu
                 <a class="nav-link" href="#JavaScript">JavaScript</a>
             </li>
             <li class="nav-link-bottom_border">
-                <a class="nav-link" href="#Section_4">Section 4</a>
+                <a class="nav-link" href="#GIT">GIT</a>
             </li>
             <li class="nav-link-bottom_border">
-                <a class="nav-link" href="#Section_5">Section 5</a>
+                <a class="nav-link" href="#Terminal">Terminal</a>
+            </li>
+            <li class="nav-link-bottom_border">
+                <a class="nav-link" href="#GitHub">GitHub</a>
             </li>
         </ul>
     </nav>
@@ -155,8 +158,59 @@ User Story #15: My Technical Documentation page should use at least one media qu
             <br>
         </section>
 
-        <section class="main-section" id="Section_4">
-            <header>Section 4</header>
+
+
+
+<!--xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx    GIT    xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx-->
+
+
+        <section class="main-section" id="GIT">
+            <header>GIT</header>
+                <h1>using git / terminal commands</h1>
+                <p>
+                when create a new project we need to install GIT inside the project folder.<br>
+                Use terminal$ git init (enter)
+                to install git inside the project folder.<br>
+                this will create a file for git where all further history of the project files will be recorded.
+                <br>
+                how to create a new repository on the command line?
+                <br>
+                echo "# test_project" >> README.md
+                git init
+                git add README.md
+                git add . (adds all files to the staging area)
+                git commit -m "first commit" (make a commit and leave a comment)
+                git remote add origin https://github.com/zoltanalmodo/test_project.git<br>
+                (points to repository after enabling github pages)
+                git push -u origin master (pushes all to master)
+            </p>
+            <h1>push an existing repository from the command line</h1>
+            <p>
+                git remote add origin https://github.com/zoltanalmodo/test_project.git
+                git push -u origin master
+            </p>
+            <br>
+            <code>
+    some code some code some code some code some code some code some code some code some code 
+    some code some code some code some code some code some code some code some code some code 
+    some code some code some code some code some code some code some code some code some code 
+                </code>
+            <br>
+            <p>Terminal commands:</p>
+            <li>git -version (returns the current version of git)</li>
+            <li>git init = installs git inside project folder</li>
+            <li>git status = gets status of files in stagig area...</li>
+            <li>cd~</li>
+            <br>
+            <p>
+                text 2 text 2 text 2 text 2 text 2 text 2 text 2 text 2 text 2 text 2 text 2 text 2 text 2 text 2 text 2
+                2 text 2 text 2 text 2 text 2 text 2 text 2 text 2 text 2 text 2 text 2 text 2 text 2 text 2 text 2 text
+                2 text 2 text 2 text 2 text 2 text 2 text 2 text 2 text 2 text 2 text 2 text 2 text 2 text 2 text 2 text
+            </p>
+        </section>
+
+        <section class="main-section" id="Terminal">
+            <header>Terminal</header>
             <p>
                 text 1 text 1 text 1 text 1 text 1 text 1 text 1 text 1 text 1 text 1 text 1 text 1 text 1 text 1 text 1 text 1 text 1 text
                 1 text 1 text 1 text 1 text 1 text 1 text 1 text 1 text 1 text 1 text 1 text 1 text 1 text 1 text 1 text
@@ -166,25 +220,44 @@ User Story #15: My Technical Documentation page should use at least one media qu
             </p>
             <br>
             <code>
-    some code some code some code some code some code some code some code some code some code 
-    some code some code some code some code some code some code some code some code some code 
-    some code some code some code some code some code some code some code some code some code 
-                </code>
+    &lt;nav id="navbar"&gt;
+        &lt;header id="user_story"&gt;User Story&lt;/header&gt;
+            &lt;ul style="list-style-type:none"&gt;
+                &lt;li&gt;
+                    &lt;a class="nav-link" href="#HTML"&gt;HTML&lt;/a&gt;
+                &lt;/li&gt;
+                &lt;li&gt;
+                    &lt;a class="nav-link" href="#CSS"&gt;CSS&lt;/a&gt;
+                &lt;/li&gt;
+                &lt;li&gt;
+                    &lt;a class="nav-link" href="#JavaScript"&gt;JavaScript&lt;/a&gt;
+                &lt;/li&gt;
+                &lt;li&gt;
+                    &lt;a class="nav-link" href="#Section_4">Section 4&lt;/a&gt;
+                &lt;/li&gt;
+                &lt;li&gt;
+                    &lt;a class="nav-link" href="#Section_5"&gt;Section 5&lt;/a&gt;
+                &lt;/li&gt;
+            &lt;/ul&gt;
+    &lt;/nav&gt;
+
+            </code>
             <br>
-            <li>list 4</li>
-            <li>list 4</li>
-            <li>list 4</li>
-            <li>list 4</li>
+            <li>list 1</li>
+            <li>list 1</li>
+            <li>list 1</li>
             <br>
             <p>
-                text 2 text 2 text 2 text 2 text 2 text 2 text 2 text 2 text 2 text 2 text 2 text 2 text 2 text 2 text 2
+                text 2 text 2 text 2 text 2 text 2 text 2 text 2 text 2 text 2 text 2 text 2 text 2 text 2 text 2 text 2 text 2 text 2 text
                 2 text 2 text 2 text 2 text 2 text 2 text 2 text 2 text 2 text 2 text 2 text 2 text 2 text 2 text 2 text
                 2 text 2 text 2 text 2 text 2 text 2 text 2 text 2 text 2 text 2 text 2 text 2 text 2 text 2 text 2 text
+                2
             </p>
+            <br>
         </section>
 
-        <section class="main-section" id="Section_5">
-            <header>Section 5</header>
+        <section class="main-section" id="GitHub">
+            <header>GitHub</header>
             <p>
                 text 1 text 1 text 1 text 1 text 1 text 1 text 1 text 1 text 1 text 1 text 1 text 1 text 1 text 1 text 1 text 1 text 1 text
                 1 text 1 text 1 text 1 text 1 text 1 text 1 text 1 text 1 text 1 text 1 text 1 text 1 text 1 text 1 text
@@ -213,6 +286,7 @@ User Story #15: My Technical Documentation page should use at least one media qu
             </p>
             <br>
         </section>
+
     </main>
 
 </body>
